@@ -1,0 +1,64 @@
+C:\Users\remzi\source\repos\MvvMandWpfApplication\bin\Debug\MvvMandWpfApplication.exe.config
+C:\Users\remzi\source\repos\MvvMandWpfApplication\bin\Debug\MvvMandWpfApplication.exe
+C:\Users\remzi\source\repos\MvvMandWpfApplication\bin\Debug\MvvMandWpfApplication.pdb
+C:\Users\remzi\source\repos\MvvMandWpfApplication\bin\Debug\EntityFramework.dll
+C:\Users\remzi\source\repos\MvvMandWpfApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\remzi\source\repos\MvvMandWpfApplication\bin\Debug\FluentValidation.dll
+C:\Users\remzi\source\repos\MvvMandWpfApplication\bin\Debug\EntityFramework.xml
+C:\Users\remzi\source\repos\MvvMandWpfApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\remzi\source\repos\MvvMandWpfApplication\bin\Debug\FluentValidation.xml
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.csprojAssemblyReference.cache
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\Components\BindablePassword.g.cs
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MainWindow.g.cs
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\Views\LoginPage.g.cs
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\Views\NotePage.g.cs
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\Views\RegisterPage.g.cs
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\App.g.cs
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication_Content.g.cs
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication_MarkupCompile.cache
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication_MarkupCompile.lref
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\Components\BindablePassword.baml
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MainWindow.baml
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\Views\LoginPage.baml
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\Views\NotePage.baml
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\Views\RegisterPage.baml
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.g.resources
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.Properties.Resources.resources
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.csproj.GenerateResource.cache
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.csproj.CoreCompileInputs.cache
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.csproj.CopyComplete
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.exe
+C:\Users\remzi\source\repos\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.pdb
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\bin\Debug\MvvMandWpfApplication.exe.config
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\bin\Debug\MvvMandWpfApplication.exe
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\bin\Debug\MvvMandWpfApplication.pdb
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\bin\Debug\EntityFramework.dll
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\bin\Debug\FluentValidation.dll
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\bin\Debug\EntityFramework.xml
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\bin\Debug\EntityFramework.SqlServer.xml
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\bin\Debug\FluentValidation.xml
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.csprojAssemblyReference.cache
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\Components\BindablePassword.g.cs
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MainWindow.g.cs
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\Views\LoginPage.g.cs
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\Views\NotePage.g.cs
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\Views\RegisterPage.g.cs
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\App.g.cs
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication_Content.g.cs
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication_MarkupCompile.cache
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication_MarkupCompile.lref
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\Components\BindablePassword.baml
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MainWindow.baml
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\Views\LoginPage.baml
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\Views\NotePage.baml
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\Views\RegisterPage.baml
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.g.resources
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.Properties.Resources.resources
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.csproj.GenerateResource.cache
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.csproj.CoreCompileInputs.cache
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.csproj.CopyComplete
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.exe
+D:\projeler\WPF Projeleri\MvvMandWpfApplication\obj\Debug\MvvMandWpfApplication.pdb

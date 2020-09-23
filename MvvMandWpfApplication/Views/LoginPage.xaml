@@ -1,0 +1,59 @@
+﻿<Window x:Class="MvvMandWpfApplication.Views.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MvvMandWpfApplication.Views"
+        xmlns:Components="clr-namespace:MvvMandWpfApplication.Components"
+        mc:Ignorable="d"
+        Title="Login Page" Height="300" Width="300" FontSize="5" Background="Gray">
+
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Login" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
+                   FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="5,8" Padding="3" />
+        <TextBlock Name="txtBlockMessage" FontSize="9" Grid.Row="1" Grid.Column="1" Margin="5,8" Padding="3" Text="{Binding Path=Message}" />
+        <TextBlock Text="User Name" FontSize="9" Grid.Row="2" Grid.Column="0" Margin="5,8" Padding="3" />
+        <TextBlock Text="Password" FontSize="9" Grid.Row="3" Grid.Column="0" Margin="5,8" Padding="3" />
+
+
+
+        <TextBox
+            Name="txtUserName"
+            FontSize="12"
+            Grid.Row="2"
+            Grid.Column="1"
+            Margin="5,8"
+            Padding="3"
+            Text="{Binding Path=CurrentUser.UserName, Mode=TwoWay}" />
+
+        <Components:BindablePassword
+            FontSize="12"
+            Grid.Row="3"
+            Grid.Column="1"
+            Margin="5,3.333,5.333,5"
+            Padding="0,2"
+            Password="{Binding Path=CurrentUser.Password, Mode=TwoWay}" />
+
+        <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="1">
+
+            <Button x:Name="btnLogin" Content="Login" CommandParameter="Login" Background="CadetBlue" Foreground="Black" Height="23" FontSize="10" Margin="5,10,40,11" Width="70" Command="{Binding Path=UserControlCommand}" />
+            <Button x:Name="btnRegister" Content="Register" Click="btnRegister_Click" Background="CadetBlue" Foreground="Black" Height="23" FontSize="10" Margin="5,10,40,11" Padding="3" Width="66"/>
+
+        </StackPanel>
+    </Grid>
+
+</Window>

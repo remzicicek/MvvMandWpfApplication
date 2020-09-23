@@ -1,0 +1,54 @@
+﻿<Window x:Class="MvvMandWpfApplication.Views.NotePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MvvMandWpfApplication.Views"
+        mc:Ignorable="d"
+        Title="NotePage" Height="521.333" Width="749.333">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <TextBox
+            Name="txtNote"
+            HorizontalAlignment="Left"
+            FontSize="12"
+            Grid.Row="2"
+            Margin="5,6.335,32,9"
+            Padding="3"
+            Height="200"
+            Width="700"
+            Text="{Binding Path=CurrentNote.Note, Mode=TwoWay}" />
+
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="1.667,0.667,-0.333,27.667" Grid.RowSpan="2">
+
+            <Button x:Name="btnAddNote" Content="AddNote" Background="CadetBlue" Foreground="Black" FontSize="12" Margin="5,5,50,10" Padding="3" Width="76" RenderTransformOrigin="0.5,0.506" Height="28" Command="{Binding Path=SaveCommandNote}" />
+            <Button x:Name="btnDeleteNote" Content="DeleteNote" Background="CadetBlue" Foreground="Black" FontSize="12" Margin="5,5,50,0" Padding="3" Width="76" RenderTransformOrigin="0.5,0.506" Height="28" VerticalAlignment="Top" Command="{Binding Path=DeleteCommandNote}"/>
+            <Button x:Name="btnUpdateNote" Content="Update" Background="CadetBlue" Foreground="Black" FontSize="12" Margin="5,5,290,0" Padding="3" Width="76" RenderTransformOrigin="0.5,0.506" Height="28" VerticalAlignment="Top" Command="{Binding Path=UpdateCommandNote}"/>
+            <Button x:Name="btnBackLogin" Content="Log Out" Background="CadetBlue" Foreground="Black" FontSize="12" Margin="5,5,5,0" Padding="3" Width="76"  RenderTransformOrigin="0.5,0.506" Height="28" VerticalAlignment="Top" Click="btnLogOut_Click"/>
+
+        </StackPanel>
+
+        <DataGrid Name="displayUsers" FontSize="12" AutoGenerateColumns="False" Grid.Row="5" Margin="3.667,8.333,9.667,9.667" Padding="3"
+                  SelectedItem="{Binding Path=CurrentNote, Mode=TwoWay}" ItemsSource="{Binding Path=NotesList, Mode=TwoWay}">
+
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="Notes" Width="auto" FontSize="12" Binding="{Binding Path=Note, Mode=TwoWay}" />
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+    </Grid>
+
+</Window>
